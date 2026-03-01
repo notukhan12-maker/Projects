@@ -1,2 +1,2 @@
 # Projects
-Assalmoalaikum! This is my Html and CSS projects.
+ This is my Html and CSS project.The project is Amazon.clone.
