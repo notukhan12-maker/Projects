@@ -1,0 +1,40 @@
+ *{
+    box-sizing: border-box;
+ }
+ .container {
+    width: 40vW;
+    height: 40vW;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMPeECzK4O_WxuDLF3TgVvHJ6W6JJsuyVLBg&s) no-repeat;
+    background-size: 100%;
+   position: relative;
+    margin: auto;
+    box-sizing: border-box;
+}
+.hour , .minute , .second{
+    transform-origin: bottom;
+     position: absolute;
+     background: black;
+     border-radius: 10px;
+} 
+.hour{
+    width: 3%;
+    height: 26%;
+    background: #000;
+    margin: 25% 48%;
+    
+}
+
+.minute{
+    width: 1.5%;
+    height: 30%;
+    background: black;
+    margin: 22% 48.5%;
+    
+}
+
+.second{
+    width: 1%;
+    height: 38%;
+    background: black;
+    margin: 14% 49%;
+}
